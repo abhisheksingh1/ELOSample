@@ -1,0 +1,1 @@
+#import "MagicalRecord/MagicalRecord.h"

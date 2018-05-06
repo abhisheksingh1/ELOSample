@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Battle" representedClassName="Battle" syncable="YES">
+        <attribute name="attacker_king" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attacker_outcome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="battle_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defender_king" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FormatedKingsDetail" representedClassName="FormatedKingsDetail" syncable="YES" codeGenerationType="class">
+        <attribute name="attacker" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="elo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="victoer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Battle" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="FormatedKingsDetail" positionX="-54" positionY="27" width="128" height="120"/>
+    </elements>
 </model>
